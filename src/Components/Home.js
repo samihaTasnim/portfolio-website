@@ -20,7 +20,7 @@ const Home = () => {
         <small>An enthusiastic Front-end developer trying to make easily accessible and responsive websites.</small>
         <br />
         <br />
-        <Link to="../../public/Resume_2.pdf" target="_blank" download><button className="btn" style={{backgroundColor: '#1864b5'}}>Download resume</button></Link>
+        <Link to="/Resume.pdf" target="_blank" download><button className="btn text-white" style={{backgroundColor: '#1864b5'}}>Download resume</button></Link>
       </div>
       <div className="offset-md-1 col-md-5">
           <img src={Image} alt="a device illustration" />

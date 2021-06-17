@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Brand from '../navbar-brand-removebg-preview.png';
-
-const brandColor = {
-  color: '#1864b5'
-}
+import './Navbar.css';
 
 const imgStyle = {
   width: '5%',
@@ -21,12 +18,12 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ms-auto">
-            <Link to="/home" className="nav-link active p-4" aria-current="page" href="..">Home</Link >
-            <Link to="/work" className="nav-link active p-4" href="..">Works</Link >
-            <Link to="/resume" className="nav-link active p-4" href="..">Resume</Link>
-            <Link to="/blog"className="nav-link active p-4" href="..">Blog</Link>
-            <Link to="/contact"className="nav-link active p-4"  href="..">Contact me </Link>
+          <div className="navbar-nav ms-auto text-white">
+            <Link to="/home" className="nav-link active p-4 link-elara" aria-current="page" href="..">Home</Link >
+            <Link to="/work" className="nav-link active p-4 link-elara" href="..">Projects</Link >
+            <Link to="/resume" className="nav-link active p-4 link-elara" href="..">Resume</Link>
+            <Link to="/blog"className="nav-link active p-4 link-elara" href="..">Blog</Link>
+            <Link to="/contact"className="nav-link active p-4 link-elara"  href="..">Contact me </Link>
           </div>
         </div>
       </div>
