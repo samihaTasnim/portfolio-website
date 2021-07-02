@@ -4,7 +4,7 @@ import Work from './Components/Work';
 import Navbar from './Components/Navbar';
 import Contact from './Components/Contact';
 import Resume from "./Components/Resume";
-import Blog from "./Components/Blog";
+import Aboutme from "./Components/Aboutme";
 
 function App() {
   return (
@@ -27,8 +27,8 @@ function App() {
           <Route path="/resume">
             <Resume></Resume>
           </Route>
-          <Route path="/blog">
-            <Blog></Blog>
+          <Route path="/aboutme">
+            <Aboutme></Aboutme>
           </Route>
           <Route path="/contact">
             <Contact></Contact>

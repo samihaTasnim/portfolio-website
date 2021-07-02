@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link to="/home" className="nav-link active p-4 link-elara" aria-current="page" href="..">Home</Link >
             <Link to="/work" className="nav-link active p-4 link-elara" href="..">Projects</Link >
             <Link to="/resume" className="nav-link active p-4 link-elara" href="..">Resume</Link>
-            <Link to="/blog"className="nav-link active p-4 link-elara" href="..">Blog</Link>
+            <Link to="/aboutme"className="nav-link active p-4 link-elara" href="..">About me</Link>
             <Link to="/contact"className="nav-link active p-4 link-elara"  href="..">Contact me </Link>
           </div>
         </div>
