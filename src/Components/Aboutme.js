@@ -3,7 +3,7 @@ import React from 'react';
 const Aboutme = () => {
   return (
     <div className="container my-3">
-      <h3 className="text-center mb-5">A tale of a React Developer</h3>
+      <h3 className="text-center mb-5">The tale of a React Developer</h3>
       <p>
         I liked the idea of coding from when I was 14. How people would sit in front of computers and write some god forsaked language and the result in actually good looking interfaces really amazed me back then. But I didn't had any computers back then so I waited for it untill I got 16. I learned HTML in 7 days after getting my first laptop and CSS in the next 15 days with the help of <a href="https://www.w3schools.com/">w3schools</a> website.
       </p>
@@ -13,7 +13,7 @@ const Aboutme = () => {
       </p>
       <br />
       <p>
-        After that, I did a Complete web developement course (MERN stack) in <a href="https://web.programming-hero.com/">Programming Hero</a>. I already knew React and all of the stuff was familiar to me. But the assignments taught me a great deal of knowledge. I became creative, learned to google for my bugs and features and  did collaborative projects. They were really tough thus a great addition in my resume. Now, I still look out for opprtunities to become a better programmer by coding everyday by exploring the new modern web.
+        After that, I did a Complete web developement course (MERN stack) in <a href="https://web.programming-hero.com/">Programming Hero</a>. I already knew React and all of the stuff was familiar to me. But the assignments taught me a great deal of knowledge. I became creative, learned to google for my bugs and features and  did collaborative projects. They were really tough thus a great addition in my resume. Now, I still look out for opprtunities to become a better programmer by coding everyday and exploring the new modern technologies.
       </p>
     </div>
   );
